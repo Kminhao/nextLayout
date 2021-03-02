@@ -1,16 +1,29 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+:root {
+  --background: #dfdfdf;
+  --navbar-color: rgb(167, 167, 167);
+
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  
+}
+
+
+body{
+  background: var(--background);
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+  font: 300;
+}
+
+
+a, li {
+  text-decoration: none;
+  list-style-type: none;
+
 }
