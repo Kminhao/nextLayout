@@ -1,8 +1,7 @@
 :root {
   --background: #dfdfdf;
-  --navbar-color: rgb(167, 167, 167);
-
-
+  --navbar-color: rgb(167, 167, 167, 0.5);
+  --navbar-menu-color: rgb(167, 167, 167);
 }
 
 

@@ -1,12 +1,12 @@
 .navbarContainer{ 
     display: flex;
     justify-content: space-around;
-    min-height: 10vh;
+    min-height: 8vh;
     align-items: center;
     background-color: var(--navbar-color);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-
+    height: 12vh;
     
 }
 
@@ -54,10 +54,14 @@
 }
 
 
+
+
 @media all and (max-width: 768px) {
+    
     .navbarContainer > i{
         display: block;
         margin-left: 300px;
+        
         
     }
 
@@ -67,11 +71,11 @@
         top: 0;
         left: 0;
         height: 100vh;
-        background-color: var(--navbar-color);
+        background-color: var(--navbar-menu-color);
         padding: 40px;
-        width: 60vw;
+        width: 70vw;
         transition: 1s;
-        transform: translateX(-500px);
+        transform: translateX(-700px);
         border-bottom: 1px solid black;
     }
 
@@ -84,7 +88,7 @@
     }
 
     .navbarLinks li:last-of-type {
-        border-bottom: 0px solid rgb(212, 199, 199);
+        border-bottom: 1px solid rgb(0, 0, 0);
     }
     
     .navbarLinks a {
@@ -105,5 +109,20 @@
         padding: 1px;
     }
 
+    .socialMediaNavbar{
+        width: 60vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+ 
+    }
     
+    .socialMediaNavbar img {
+        width: 35px;
+        height: 35px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }  
 }
